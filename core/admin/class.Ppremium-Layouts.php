@@ -14,6 +14,7 @@ class Ppremium_Layout extends Playouts_Admin_Layout {
         $this->id = 'bw_premium_layout';
         $this->name = esc_html__( 'Premium Element', 'peenapo-layouts-txd' );
         $this->layout_view = 'row';
+        $this->category = array( 'premium' => __( 'Premium', 'peenapo-layouts-txd' ) );
         $this->image = PPREMIUM_URL . 'assets/images/dummy.png';
 
     }
